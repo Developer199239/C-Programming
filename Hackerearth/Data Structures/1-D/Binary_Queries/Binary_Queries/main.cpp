@@ -9,7 +9,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-
+ 
 int main(int argc, const char * argv[]) {
     int n,q;
     cin>>n>>q;
@@ -32,7 +32,11 @@ int main(int argc, const char * argv[]) {
             cin>>l>>r;
             l--;
             r--;
-            
+            if(ar[r] == 0) {
+                cout<<"EVEN"<<endl;
+            } else {
+                cout<<"ODD"<<endl;
+            }
         }
     }
     
